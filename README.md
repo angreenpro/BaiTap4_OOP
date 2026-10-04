@@ -2,7 +2,7 @@
 
 ## Mô tả
 
-Bài tập tuần 4 môn **Lập trình Hướng đối tượng (OOP)** xây dựng một hệ thống tính thu nhập hằng tháng cho ba loại nhân sự trong doanh nghiệp. Hệ thống áp dụng các khái niệm: **kế thừa**, **nạp chồng (overloading)** và **ghi đè (overriding)** phương thức.
+Bài tập tuần 4 môn Lập trình Hướng đối tượng xây dựng hệ thống tính thu nhập hằng tháng cho ba loại nhân sự trong doanh nghiệp. Hệ thống áp dụng các khái niệm: kế thừa, nạp chồng (overloading) và ghi đè (overriding) phương thức.
 
 ---
 
