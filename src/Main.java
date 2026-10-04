@@ -166,15 +166,15 @@ public class Main {
         try {
             r.run();
             if (expectException) {
-                System.out.println("❌ FAIL (không ném exception)");
+                System.out.println("FAIL");
             } else {
-                System.out.println("✅ PASS");
+                System.out.println("PASS");
             }
         } catch (IllegalArgumentException ex) {
             if (expectException) {
-                System.out.printf("✅ PASS (%s)%n", ex.getMessage());
+                System.out.printf("PASS (%s)%n", ex.getMessage());
             } else {
-                System.out.printf("❌ FAIL (lỗi ngoài dự kiến: %s)%n", ex.getMessage());
+                System.out.printf("FAIL (lỗi ngoài dự kiến: %s)%n", ex.getMessage());
             }
         }
     }
@@ -183,6 +183,6 @@ public class Main {
     private static void assertGross(String label, double actual, double expected) {
         boolean pass = Math.abs(actual - expected) < 1.0;
         System.out.printf("%-10s : %,.0f đ  %s%n",
-                label, actual, pass ? "✅" : "❌ (mong đợi " + expected + ")");
+                label, actual, pass ? "PASS" : "FAIL (mong đợi " + expected + ")");
     }
 }
